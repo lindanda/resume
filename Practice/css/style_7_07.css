@@ -1,0 +1,7 @@
+body,p{margin: 0;padding: 0;}
+
+.box{line-height: 24px;}
+.p1{ border: 1px #ccc solid; border-radius: 3px; margin: 0 auto;margin-top:30px;  width: 566px; padding: 16px;}
+.p2{ background-color:#ffe7e7 ; border-left: 6px #f44336 solid ;border-right: 7px #f44336 solid ;margin: 0 auto;margin-top:30px; width: 555px; padding: 16px;}
+.p3{  border-top: 6px #ffeb3b solid ;border-bottom: 7px #ffeb3b solid ; margin: 0 auto;margin-top:30px;  width:568px; padding: 16px; background-color: #ffffd7;}
+.p4{ background-color: #e7ffe7;border: 1px #4caf50 solid; border-bottom: 7px solid #4CAF50; margin: 0 auto;margin-top:30px;  width: 566px; padding: 16px;}

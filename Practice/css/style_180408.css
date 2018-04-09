@@ -1,0 +1,15 @@
+body,h1,ul,li,p{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+body{font:14px/1.4 Arial;background-color: #fff2e3;text-align: center;}
+
+.btn{display: inline-block;padding:6px 12px;color:#fff;background-color: #72b890; 
+	border-radius: 3px;margin: 0 4px;}
+.btn_01{opacity: 0.8}
+.tit{color: #b7bbb0;font-size: 50px;margin-top: 50px; font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;;}
+.notes{color: #b7bbb0;margin-top: 20px; opacity: 0.6;}
+.tab li{display: inline-block;margin-top: 30px;}
+.pic{margin-top: 40px;}
+.but li{display: inline-block;margin-top: 30px;opacity: 0.8;}
+.bot{ margin: 30px; color: #b7bbb0;}
+.bot a{color: #72b890;}
