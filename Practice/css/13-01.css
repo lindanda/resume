@@ -1,0 +1,360 @@
+
+
+/* reset */
+		*{
+			margin:0; 
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			font: 14px/1.5 "微软雅黑";
+			background-color: #fff;
+			color: #333;
+		}
+
+		a{
+			text-decoration: none;
+		}
+		ul,li{ list-style: none; }
+		/* common */
+		.clearfix::after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+
+/*		concent-css*/
+html,body{height: 100%;}
+header {
+	height: 100%;
+	min-height: 600px;
+	background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/header-bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	color: #fff;
+}
+.logo {
+	color: #0095ff;
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+	padding-left: 20px;
+}
+.navbar{
+	padding-top: 10px;
+    overflow: hidden;
+}
+.nav-right{ margin: 0 auto; width: 600px;}
+.logo{ float: left; }
+.nav{ float: right;}
+.nav>li{
+	float: left;
+	margin-left: 30px;
+}
+.nav a{
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	display: inline-block;
+}
+.nav a:hover{
+	background: #0095ff;
+	padding: 10px;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 6px;
+}
+
+.introduce{
+	text-align: center; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.introduce a{
+	color: #fff;
+	background: #0095ff;
+	padding: 20px 40px;
+	border-radius: 4px;
+	opacity: 0.8;
+}
+.introduce a:hover{
+	opacity: 1;
+}
+.introduce h1{
+	font-size: 75px;
+	padding-bottom: 20px;
+}
+.introduce h3{
+	font-size: 40px;
+	font-family: Arial;
+}
+
+/*内容注释*/
+section{
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fff;
+}
+section>h2{
+	font-size: 40px;
+	margin-top: 30px;
+}
+section .family-intro>li{
+	float: left;
+	width: 33%;
+}
+
+.icon-big {
+    display: inline-block;
+	width: 112px;
+	height: 112px;
+	border-radius: 56px;
+	background-color: #0095ff;
+	margin-top: 36px;
+}
+.icon-big .iconfont{
+	font-size: 48px;
+	color: #fff;
+	line-height: 112px;
+}
+section>ul>li>h3{
+	font-size: 20px;
+	margin-top: 20px;
+}
+section>ul>li>p{
+	margin-top: 20px;
+	color: #999;
+}
+.template{
+	background-color: #f7f7f7;
+	width: 100%;
+}
+.template section{
+	background-color: #f7f7f7;
+}
+.template section h2{
+	padding-top: 30px;
+}
+section .case figure{
+	float: left;
+	width: calc(33.33% - 30px);
+	height:280px;
+	margin:15px;
+	background-color: #fff;
+}
+section .case figure p{
+	color: #999;
+	line-height: 24px;
+}
+section .case figure a{
+	position: relative;
+	display: block;
+	height: 200px;
+}
+section .case figure a img{
+	width: 100%;
+	height: 100%;
+}
+section .case figcaption{
+	font-size:18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+section .hover-blue{
+    background: rgba(254, 209, 54, .9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+}
+section .hover-blue:hover{
+     opacity: 1;
+}
+section .case figure .hover-blue img { 
+	width: 30px;
+	height:30px; 
+	margin-top: 27%;
+}
+.time-line{
+	text-align: center;
+}
+.time-line li:after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.time-line li{
+	margin-top:40px;	
+	position: relative;
+}
+.time-line li .imgs,
+.time-line li img{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 4px #0095ff solid;
+	color:#fff; 
+}
+.time-line li .imgs{
+    display:inline-block;
+	padding: 30px 10px 10px 10px;
+	background-color: #0095ff;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.time-line li:nth-child(odd) dl{
+	margin-right: 120px;
+}
+.time-line li:nth-child(odd){
+	padding-right:calc( 50% - 50px);
+	text-align: right;
+}
+.time-line li:nth-child(odd) img{
+	float: right;
+}
+.time-line li:nth-child(even) dl{
+	margin-left: 120px;
+}
+.time-line li:nth-child(even){
+	padding-left:calc( 50% - 50px);
+	text-align: left;
+}
+.time-line li:nth-child(even) img{
+	float: left;
+}
+.time-line li dl dt{
+	font-size: 28px;
+	font-weight: bold;
+}
+.time-line li dl dd:nth-child(2){
+	color: #999;
+}
+.time-line li::before {
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height: 60px;
+	background-color: #0095ff;
+	position: absolute;
+	left: 50%;
+	margin-left: -1px;
+	top: 100px;
+}
+.time-line li:last-child::before{
+	height: 0;
+}
+
+.icon-sml {
+    display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #000;
+	margin-top: 20px;
+	text-align: center;
+}
+.icon-sml:hover{
+	background-color: #0095ff;
+}
+.icon-sml .iconfont{
+	font-size: 16px;
+	color: #fff;
+	line-height: 40px;
+}
+.template ul li{
+	float: left;
+	margin-top: 30px;
+}
+.template ul li p{
+	margin-top: 0;
+}
+.template ul li img{
+	display: inline-block;
+	border: 4px solid #fff;
+	border-radius:50%;
+    width: 225px;
+    height: 225px;
+}
+.template>section>.lis-p{
+	line-height: 1.75;
+	margin: 20px 50px;
+	padding-bottom: 50px;
+	color: #999;
+}
+
+
+/*表单*/
+#contact{
+	width: 100%;
+	background-color: #222;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+.input-box{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.section-heading {
+	padding-top: 36px;
+    color: #fff;
+}
+
+.section-subheading{
+	color: #fff;
+	font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 36px;
+    opacity: .6;
+}
+.but-left{
+	float: left;
+	width: 50%
+}
+.but-left input{
+	width: 460px;
+	height: 50px;
+	border-radius: 6px;
+	margin-bottom: 16px;
+	font-size: 16px;
+	padding-left: 16px;
+}
+textarea{
+	width: 460px;
+    height: 182px;
+	border-radius: 6px;
+	color: #999;
+	font-size: 36px;
+}
+.but-right{
+	float: right;
+	width: 50%;
+}
+.but-sub{ overflow: hidden; }
+.btn-xl{
+	color: #fff;
+    background-color: #0095ff;
+    border-color: #0085ff;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px
+}
+.btn-xl:hover{
+	opacity: 0.9;
+}
+.foot{ width: 980px; margin: 0 auto;margin-top:30px;padding-bottom: 30px}
+.foot-left,.foot-mid{ float: left;width: 33.33%;line-height: 30px; }
+.foot-mid{ text-align: center; }
+.foot-right{ float: right; }
+.foot-mid .foot-icon{ margin-top:0; }
+.foot-right ul li{ float: left;padding-left: 15px;}
+.foot-right ul li a{ color:red; }
